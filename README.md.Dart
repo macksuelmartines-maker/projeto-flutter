@@ -20,3 +20,18 @@ void main() {
   // Variáveis 'const' e 'final' não podem ter seus valores alterados depois de criadas.
   print('PI: $pi | Ano de nascimento: $anoNascimento');
 }
+
+
+Codigo abaixo As contas matematicas que da para fazer
+
+void main() {
+  int a = 17;
+  int b = 5;
+
+  print(a + b);
+  print(a - b);
+  print(a * b);
+  print(a / b);
+  print(a ~/ b);
+  print(a % b);
+}
