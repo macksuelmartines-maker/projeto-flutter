@@ -35,3 +35,22 @@ void main() {
   print(a ~/ b);
   print(a % b);
 }
+
+Abaixo esta o codigo de como o calculo de notas escolares ocorre nesta linguagem
+
+void main() {
+  double nota1 = 4.5;
+  double nota2 = 9.5;
+  double media = (nota1 + nota2) / 2;
+
+  print('Média: $media');
+
+  if (media >= 7) {
+    print('Aprovado');
+  } else if (media >= 5) {
+    print('Em recuperação');
+  } else {
+    print('Reprovado');
+  }
+}
+
