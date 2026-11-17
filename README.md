@@ -54,3 +54,61 @@ void main() {
   }
 }
 
+
+## Atividades feitas em aula
+
+fixa pessoal
+
+void main() {
+  String nome = "Macksuel";
+  int idade = 16;
+  double altura = 1.75;
+  bool trabalha = false;
+
+  print('FICHA PESSOAL');
+  print('Nome: $nome');
+  print('Idade: $idade anos');
+  print('Altura: $altura m');
+  print('Trabalha: $trabalha');
+}
+
+Calculadora Basica
+
+void main() {
+  int a = 17;
+  int b = 5;
+
+  print('Soma: ${a + b}');
+  print('Subtração: ${a - b}');
+  print('Multiplicação: ${a * b}');
+  print('Divisão: ${a / b}');
+  print('Divisão inteira: ${a ~/ b}');
+  print('Resto: ${a % b}');
+}
+
+media de tres Notas
+
+void main() {
+  double nota1 = 7.5;
+  double nota2 = 8.0;
+  double nota3 = 6.2;
+
+  double media = (nota1 + nota2 + nota3) / 3;
+
+  print('Média: ${media.toStringAsFixed(1)}');
+}
+
+Horas em minutos
+
+void main() {
+  int totalMinutos = 200;
+
+  int horas = totalMinutos ~/ 60;
+  int minutos = totalMinutos % 60;
+
+  print('$horas h e $minutos min');
+}
+
+
+
+
