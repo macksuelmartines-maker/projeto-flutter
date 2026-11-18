@@ -109,6 +109,52 @@ void main() {
   print('$horas h e $minutos min');
 }
 
+Troca de valores
+
+void main() {
+  int a = 5;
+  int b = 9;
+  print('Antes da troca: a = $a, b = $b');
+  int temp = a;
+  a = b;
+  b = temp;
+  print('Depois da troca: a = $a, b = $b');
+}
+
+Positvo ou negativo
+
+void main() {
+  double numero = -4.5;
+
+  if (numero > 0) {
+    print('$numero é positivo.');
+  } else if (numero < 0) {
+    print('$numero é negativo.');
+  } else {
+    print('O número é zero.');
+  }
+}
+Idade criança, adolecente, adulto ou idoso
+
+
+
+void main() {
+  int idade = 25;
+
+  if (idade < 0) {
+    print('Idade inválida.');
+  } else if (idade <= 11) {
+    print('Com $idade anos, é criança.');
+  } else if (idade <= 17) {
+    print('Com $idade anos, é adolescente.');
+  } else if (idade <= 59) {
+    print('Com $idade anos, é adulto.');
+  } else {
+    print('Com $idade anos, é idoso.');
+  }
+}
+
+
 
 
 
